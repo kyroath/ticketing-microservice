@@ -21,7 +21,9 @@ router.post(
 
     const { email, password } = req.body;
 
-    res.send("Hi there!");
+    console.log("Creating a user...");
+
+    res.send({});
   }
 );
 
